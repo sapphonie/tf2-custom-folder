@@ -8,3 +8,5 @@ private.cfg
 ./_SOLIDCOLORTEXTURES_004.vpk
 ./_SOLIDCOLORTEXTURES_005.vpk
 fem_scout*
+# ignore bfg jar
+*.jar
