@@ -3,13 +3,13 @@
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"235"								Linear	0.0 	0.0
-	
+
 	Animate PlayerStatusHealthValue				FgColor 	"Health Buff" 						Accel 	0.0		0.0
-	
+
 	Animate PlayerStatusHealthValueTarget		FgColor 	"Health Buff Target" 				Accel 	0.0		0.0
-	
+
 	Animate PlayerStatusHealthValueSpectator	FgColor 	"Health Buff Spec" 					Accel 	0.0		0.0
-	
+
 	RunEvent HudHealthBonusPulseLoop			0.7
 }
 
@@ -22,11 +22,11 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 				0.0
 	StopEvent HudHealthBonusPulseLoop			0.0
-	
+
 	Animate PlayerStatusHealthValue 			FgColor 	"Health" 							Linear 	0.0 	0.0
-	
+
 	Animate PlayerStatusHealthValueTarget 		FgColor 	"Health" 							Linear 	0.0 	0.0
-	
+
 	Animate PlayerStatusHealthValueSpectator 	FgColor 	"Health" 							Linear 	0.0 	0.0
 }
 
@@ -35,11 +35,11 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"235"								Linear 	0.0 	0.0
-	
+
 	Animate PlayerStatusHealthValue				FgColor 	"Health Hurt" 						Linear 	0.0		0.0
-	
+
 	Animate PlayerStatusHealthValueTarget		FgColor 	"Health Hurt Target" 				Linear 	0.0		0.0
-	
+
 	Animate PlayerStatusHealthValueSpectator	FgColor 	"Health Hurt Spec" 					Linear 	0.0		0.0
 
 	RunEvent HudHealthDyingPulseLoop			0.4
@@ -54,11 +54,11 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse				0.0
 	StopEvent HudHealthDyingPulseLoop 			0.0
-	
+
 	Animate PlayerStatusHealthValue 			FgColor 	"Health" 							Linear 	0.0 	0.0
-	
+
 	Animate PlayerStatusHealthValueTarget 		FgColor 	"Health" 							Linear 	0.0 	0.0
-	
+
 	Animate PlayerStatusHealthValueSpectator 	FgColor 	"Health" 							Linear 	0.0 	0.0
 }
 
@@ -67,13 +67,13 @@ event HudHealthDyingPulseStop
 event HudLowAmmoPulse
 {
 	Animate AmmoInClip 							FgColor 	"Ammo In Clip Low" 					Linear 	0.0 	0.0
-	
+
 	Animate AmmoInReserve						FgColor 	"Ammo In Reserve Low" 				Linear 	0.0 	0.0
-	
+
 	Animate AmmoNoClip 							FgColor 	"Ammo No Clip Low" 					Linear 	0.0 	0.0
-	
+
 	RunEvent HudLowAmmoPulseLoop				0.4
-}	
+}
 
 event HudLowAmmoPulseLoop
 {
@@ -84,11 +84,11 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 					0.0
 	StopEvent HudLowAmmoPulseLoop 				0.0
-	
+
 	Animate AmmoInClip 							FgColor 	"Ammo In Clip" 						Linear 	0.0 	0.0
-	
+
 	Animate AmmoInReserve 						FgColor 	"Ammo In Reserve" 					Linear 	0.0 	0.0
-	
+
 	Animate AmmoNoClip 							FgColor 	"Ammo No Clip" 						Linear 	0.0 	0.0
 }
 
@@ -97,14 +97,14 @@ event HudLowAmmoPulseStop
 event HudMedicCharged
 {
 	Animate	ChargeLabel 						FgColor		"Ubercharge Full"					Linear 	0.0 	0.0
-	
+
 	Animate	ChargeMeter 						FgColor		"255 000 000 255"					Linear 	0.0		0.4
 	Animate	ChargeMeter 						FgColor		"255 255 000 255"					Linear 	0.4		0.4
 	Animate	ChargeMeter 						FgColor		"000 255 000 255"					Linear 	0.8		0.4
 	Animate	ChargeMeter 						FgColor		"000 255 255 255"					Linear 	1.2		0.4
 	Animate	ChargeMeter 						FgColor		"000 000 255 255"					Linear 	1.6		0.4
 	Animate	ChargeMeter 						FgColor		"255 000 255 255"					Linear 	2.0		0.4
-	
+
 	//Vaccinator
 	Animate	ChargeMeter1 						FgColor		"255 000 000 255"					Linear 	0.0		0.4
 	Animate	ChargeMeter1 						FgColor		"255 255 000 255"					Linear 	0.4		0.4
@@ -112,28 +112,28 @@ event HudMedicCharged
 	Animate	ChargeMeter1 						FgColor		"000 255 255 255"					Linear 	1.2		0.4
 	Animate	ChargeMeter1 						FgColor		"000 000 255 255"					Linear 	1.6		0.4
 	Animate	ChargeMeter1						FgColor		"255 000 255 255"					Linear 	2.0		0.4
-	
+
 	Animate	ChargeMeter2 						FgColor		"255 000 000 255"					Linear 	0.0		0.4
 	Animate	ChargeMeter2 						FgColor		"255 255 000 255"					Linear 	0.4		0.4
 	Animate	ChargeMeter2 						FgColor		"000 255 000 255"					Linear 	0.8		0.4
 	Animate	ChargeMeter2 						FgColor		"000 255 255 255"					Linear 	1.2		0.4
 	Animate	ChargeMeter2 						FgColor		"000 000 255 255"					Linear 	1.6		0.4
 	Animate	ChargeMeter2 						FgColor		"255 000 255 255"					Linear 	2.0		0.4
-	
+
 	Animate	ChargeMeter3 						FgColor		"255 000 000 255"					Linear 	0.0		0.4
 	Animate	ChargeMeter3 						FgColor		"255 255 000 255"					Linear 	0.4		0.4
 	Animate	ChargeMeter3 						FgColor		"000 255 000 255"					Linear 	0.8		0.4
 	Animate	ChargeMeter3 						FgColor		"000 255 255 255"					Linear 	1.2		0.4
 	Animate	ChargeMeter3 						FgColor		"000 000 255 255"					Linear 	1.6		0.4
 	Animate	ChargeMeter3 						FgColor		"255 000 255 255"					Linear 	2.0		0.4
-	
+
 	Animate	ChargeMeter4 						FgColor		"255 000 000 255"					Linear 	0.0		0.4
 	Animate	ChargeMeter4 						FgColor		"255 255 000 255"					Linear 	0.4		0.4
 	Animate	ChargeMeter4 						FgColor		"000 255 000 255"					Linear 	0.8		0.4
 	Animate	ChargeMeter4 						FgColor		"000 255 255 255"					Linear 	1.2		0.4
 	Animate	ChargeMeter4 						FgColor		"000 000 255 255"					Linear 	1.6		0.4
 	Animate	ChargeMeter4 						FgColor		"255 000 255 255"					Linear 	2.0		0.4
-	
+
 	RunEvent HudMedicChargedLoop				2.4
 }
 
@@ -146,9 +146,9 @@ event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged 					0.0
 	StopEvent HudMedicChargedLoop 				0.0
-	
+
 	Animate	ChargeLabel 						FgColor		"Ubercharge"						Linear 	0.0 	0.0001
-	
+
 	Animate	ChargeMeter 						FgColor		"Ubercharge"						Linear 	0.0		0.0001
 }
 
@@ -172,14 +172,14 @@ event FlagOutline
 {
 	RunEvent FlagOutlineHide 					0.0
 	Animate OutlineImage						Alpha		"0"									Linear 	0.1 	0.2
-	
+
 	Animate OutlineImage						Position	"c-200 140"							Linear 	0.1 	0.2
 	Animate OutlineImage						Size		"400 200"							Linear 	0.1 	0.2
 
 	Animate OutlineImage						Position	"c-50 r137"							Linear 	0.7 	0.2
 	Animate OutlineImage						Position	"c-50 r158"							Linear 	0.7 	0.2
 	Animate OutlineImage						Size		"100 50"							Linear 	0.7 	0.2
-	
+
 	Animate OutlineImage						Alpha		"0"									Linear 	0.9 	0.1
 }
 
@@ -188,7 +188,7 @@ event FlagOutline
 event HudSpyDisguiseChanged
 {
 	Animate PlayerStatusSpyOutlineImage			Alpha		"0"									Linear 	0.0 	0.2
-	
+
 	Animate PlayerStatusSpyOutlineImage			Position	"c-200 c-200"						Linear 	0.0 	0.2
 	Animate PlayerStatusSpyOutlineImage			Size		"400 400"							Linear 	0.0 	0.2
 

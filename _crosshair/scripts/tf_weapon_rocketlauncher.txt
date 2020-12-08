@@ -2,26 +2,26 @@ WeaponData
 {
 	// Attributes Base.
 	"printname"		"#TF_Weapon_RocketLauncher"
-	"BuiltRightHanded"	"0"
-	"weight"		"3"
-	"WeaponType"		"primary"
+	"BuiltRightHanded"			"0"
+	"weight"					"3"
+	"WeaponType"				"primary"
 	"ITEM_FLAG_NOITEMPICKUP" 	"1"
-	
+
 	// Primary Attributes.
-	"Damage"		"90"
-	"Range"			"0"
-	"BulletsPerShot"	"1"
-	"Spread"		"0.0"
-	"PunchAngle"		"0.0"
-	"TimeFireDelay"		"0.8"
-	"TimeIdle"		"0.8"
-	"TimeIdleEmpty"		"0.8"
-	"TimeReloadStart"	"0.1"
-	"TimeReload"		"0.83"
-	"primary_ammo"		"TF_AMMO_PRIMARY"
-	clip_size		4
-	default_clip		4
-	"ProjectileType"	"projectile_rocket"
+	"Damage"					"90"
+	"Range"						"0"
+	"BulletsPerShot"			"1"
+	"Spread"					"0.0"
+	"PunchAngle"				"0.0"
+	"TimeFireDelay"				"0.8"
+	"TimeIdle"					"0.8"
+	"TimeIdleEmpty"				"0.8"
+	"TimeReloadStart"			"0.1"
+	"TimeReload"				"0.83"
+	"primary_ammo"				"TF_AMMO_PRIMARY"
+	clip_size					4
+	default_clip				4
+	"ProjectileType"			"projectile_rocket"
 	"HasTeamSkins_Viewmodel"	"1"
 
 	// Secondary Attributes.
@@ -31,10 +31,10 @@ WeaponData
 	"bucket"		"0"
 	"bucket_position"	"0"	
 
-	"ExplosionEffect"		"electrocuted_red_flash"
+	"ExplosionEffect"			"electrocuted_red_flash"
 	"ExplosionPlayerEffect"		"electrocuted_blue_flash"
 	"ExplosionWaterEffect"		"electrocuted_red_flash"
-	"ExplosionSound"		"BaseExplosionEffect.Sound"
+	"ExplosionSound"			"BaseExplosionEffect.Sound"
 
 	// Animation.
 	//"viewmodel"     -viewmodel is now defined in _items_main.txt
@@ -47,7 +47,7 @@ WeaponData
 	{
 		"single_shot"	"Weapon_RPG.Single"
 //		"reload"		"Weapon_RPG.WorldReload"
-		"burst"			"Weapon_RPG.SingleCrit"	
+		"burst"			"Weapon_RPG.SingleCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
