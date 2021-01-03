@@ -23,4 +23,4 @@ taskkill -im hl2.exe* /f
 ::================================
 :: normal
 ::
-start hl2.exe -game tf -steam -novid -nojoy -nosteamcontroller -particles 1 -precachefontchars -console -nostartupsound +clientport 27069 -no_texture_stream +map_background preload_room &
+start hl2.exe -game tf -steam -novid -nojoy -nosteamcontroller -particles 1 -precachefontchars -console -nostartupsound +clientport 27069 -no_texture_stream &
