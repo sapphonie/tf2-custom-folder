@@ -1,12 +1,4 @@
-*.sound.cache
-_SOLIDCOLORTEXTURES*
+*sound.cache
 private.cfg
-./_SOLIDCOLORTEXTURES_000.vpk
-./_SOLIDCOLORTEXTURES_001.vpk
-./_SOLIDCOLORTEXTURES_002.vpk
-./_SOLIDCOLORTEXTURES_003.vpk
-./_SOLIDCOLORTEXTURES_004.vpk
-./_SOLIDCOLORTEXTURES_005.vpk
-fem_scout*
 # ignore bfg jar
 *.jar
