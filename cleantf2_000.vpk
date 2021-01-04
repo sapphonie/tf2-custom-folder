@@ -1,0 +1,45 @@
+VisionFilterShadersMapWhitelist
+{
+}Generated with CleanTF2+
+https://github.com/JarateKing/CleanTF2plus
+
+Current Options:
+"nohats headsfeet" 
+"no player gibs" 
+"no shells" 
+"no weapon gibs" 
+"empty surface properties (metal footsteps)" 
+"no soundscapes" 
+"no pyrovision textures" 
+soundscapes_manifest
+{
+}"default"
+{
+	"density"	"2000"
+	"elasticity"	"0.25"
+	"friction"	"0.8"
+	"dampening"	"0.0"
+
+	"stepleft"	"SolidMetal.StepLeft"
+	"stepright"	"SolidMetal.StepLeft"
+	"bulletimpact"	""
+	"scraperough"	""
+	"scrapesmooth"	""
+	"impacthard"	""
+	"impactsoft"	""
+
+	"audioreflectivity" "0.66"
+	"audiohardnessfactor" "1.0"
+	"audioroughnessfactor" "1.0"
+
+	"scrapeRoughThreshold" "0.5"
+	"impactHardThreshold" "0.5"
+
+	"gamematerial"	"-"
+	"jumpfactor" "1.0"
+	"maxspeedfactor" "1.0"
+	"climbable"	"0"
+}surfaceproperties_manifest
+{
+	"file"		"scripts/surfaceproperties.txt"
+}
