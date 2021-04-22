@@ -11,8 +11,8 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-#base "../resource/ui/alternatives/Chat_Lower.res"		// CHAT IN LOWER LEFT
-//#base "../resource/ui/alternatives/Chat_Upper.res"		// CHAT IN UPPER LEFT
+//#base "../resource/ui/alternatives/Chat_Lower.res"		// CHAT IN LOWER LEFT
+#base "../resource/ui/alternatives/Chat_Upper.res"		// CHAT IN UPPER LEFT
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////

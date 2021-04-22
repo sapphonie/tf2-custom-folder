@@ -26,12 +26,6 @@
 //#base "../resource/scheme/crosshairs/scheme_dropshadow.res"
 
 
-
-
-
-
-
-
 ///////////////////////////////////////////////
 // 				MAIN FONT SCHEME 			 //
 // 	  YOU DON'T WANT TO COMMENT THAT EVER	 //

@@ -18,10 +18,10 @@
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"480"
-		
+
 		"visible"		"0"		//SET THIS VALUE TO 1
 		"enabled"		"0"		//SET THIS VALUE TO 1
-		
+
 		"image"			"replay/thumbnails/transparent"
 		"scaleImage"	"1"
 	}
