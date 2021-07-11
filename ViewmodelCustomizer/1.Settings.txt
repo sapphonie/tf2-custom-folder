@@ -1,0 +1,786 @@
+	Some information:
+		The $Origin value controls where the weapon/animation gets put on the screen.
+		$Orgin 0 0 0 = $Origin <x> <y> <-z> 
+		More helpful information about this here: https://developer.valvesoftware.com/wiki/$origin
+		For example, I use $Origin 0 20 15 to get some very small viewmodels for a weapon/animation.
+		To sum it up a bit:
+			A positive X value will move the weapon closer to the center.
+			A negative X value will move the weapon away from the center, based on which hand holds it.
+			A positive Y value will move the weapon away from the camera, towards the crosshair.
+			A negative Y value will move the weapon closer to the camera, away from the crosshair.
+			A positive Z value will move the weapon down, towards the bottom of the screen.
+			A negative Z value will move the weapon up, towards the top of the screen.
+			Theres the optional Z rotation value you can add after X Y Z, it will rotate the weapon.
+		
+		For (Y/N) options, just change [N] to [Y] if you want to use them.
+		☛KEEP IN MIND it's case sensitive, it has to be [Y], not [y].
+
+	Settings:
+Remove scattergun and shotgun shells(Y/N):[N]																																																																																																																										//#snapshotgun
+Remove sniper rifle shells(Y/N):[N]																																																																																																																													//#snapsniper
+	
+Scout:
+	Bat and all melees with no individual settings:
+		$Origin 0 0 0																																																																																																																																//#1bat
+		Hidden(Y/N):[N]																																																																																																																																//#h1bat
+	Drinks (mad milk included of course):
+		$Origin 0 0 0																																																																																																																																//#1bonk
+		Hidden(Y/N):[N]																																																																																																																																//#h1bonk
+	Drinks Inspect:
+		$Origin 0 0 0																																																																																																																																//#1bonkinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h1bonkinspect
+	Bread Jar:
+		$Origin 0 0 0																																																																																																																																//#1breadjar
+		Hidden(Y/N):[N]																																																																																																																																//#h1breadjar
+	Bread Jar Inspect:
+		$Origin 0 0 0																																																																																																																																//#1breadjarinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h1breadjarinspect
+	Cleaver:
+		$Origin 0 0 0																																																																																																																																//#1cleaver
+		Hidden(Y/N):[N]																																																																																																																																//#h1cleaver
+	Cleaver Inspect:
+		$Origin 0 0 0																																																																																																																																//#1cleaverinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h1cleaverinspect
+	Double Barrel Scatterguns:
+		$Origin 0 0 0																																																																																																																																//#1fan
+		Hidden(Y/N):[N]																																																																																																																																//#h1fan
+		Remove Reload(Y/N):[N]																																																																																																																														//#r1fan
+	Double Barrel Scatterguns Inspect:
+		$Origin 0 0 0																																																																																																																																//#1faninspect
+		Hidden(Y/N):[N]																																																																																																																																//#h1faninspect
+	Grappling Hook:
+		$Origin 0 0 0																																																																																																																																//#1grapplinghook
+		Hidden(Y/N):[N]																																																																																																																																//#h1grapplinghook
+	Melee Allclass:
+		$Origin 0 0 0																																																																																																																																//#1meleeallclass
+		Hidden(Y/N):[N]																																																																																																																																//#h1meleeallclass
+	Melee Allclass Inspect:
+		$Origin 0 0 0																																																																																																																																//#1meleeallclassinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h1meleeallclassinspect
+	Melee Inspect:
+		$Origin 0 0 0																																																																																																																																//#1meleeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h1meleeinspect
+	Passtime Ball:
+		$Origin 0 0 0																																																																																																																																//#1passtimeball
+		Hidden(Y/N):[N]																																																																																																																																//#h1passtimeball
+	Pistol:
+		$Origin 0 0 0																																																																																																																																//#1pistol
+		Hidden(Y/N):[N]																																																																																																																																//#h1pistol
+		Remove Reload(Y/N):[N]																																																																																																																														//#r1pistol
+	Primary Inspect:
+		$Origin 0 0 0																																																																																																																																//#1primaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h1primaryinspect
+	Sandman:
+		$Origin 0 0 0																																																																																																																																//#1sandman
+		Hidden(Y/N):[N]																																																																																																																																//#h1sandman
+	Scattergun:
+		$Origin 0 0 0																																																																																																																																//#1scattergun
+		Hidden(Y/N):[N]																																																																																																																																//#h1scattergun
+		Remove Reload(Y/N):[N]																																																																																																																														//#r1scattergun
+	Secondary Inspect:
+		$Origin 0 0 0																																																																																																																																//#1secondaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h1secondaryinspect
+	Shortstop:
+		$Origin 0 0 0																																																																																																																																//#1shortstop
+		Hidden(Y/N):[N]																																																																																																																																//#h1shortstop
+		Remove Reload(Y/N):[N]																																																																																																																														//#r1shortstop
+	Shortstop Inspect:
+		$Origin 0 0 0																																																																																																																																//#1shortstopinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h1shortstopinspect
+	Spell Cast:
+		$Origin 0 0 0																																																																																																																																//#1spellcast
+		Hidden(Y/N):[N]																																																																																																																																//#h1spellcast
+	Throw:
+		$Origin 0 0 0																																																																																																																																//#1throw
+		Hidden(Y/N):[N]																																																																																																																																//#h1throw
+
+Soldier:
+	Bison:
+		$Origin 0 0 0																																																																																																																																//#2bison
+		Hidden(Y/N):[N]																																																																																																																																//#h2bison
+		Remove Reload(Y/N):[N]																																																																																																																														//#r2bison
+	Bison Inspect:
+		$Origin 0 0 0																																																																																																																																//#2bisoninspect
+		Hidden(Y/N):[N]																																																																																																																																//#h2bisoninspect
+	Buff Banner and Battalion's Backup:
+		$Origin 0 0 0																																																																																																																																//#2bugle
+		Hidden(Y/N):[N]																																																																																																																																//#h2bugle
+	Buff Banner and Battalion's Backup Inspect:
+		$Origin 0 0 0																																																																																																																																//#2bugleinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h2bugleinspect
+	Concheror:
+		$Origin 0 0 0																																																																																																																																//#2conch
+		Hidden(Y/N):[N]																																																																																																																																//#h2conch
+	Concheror Inspect:
+		$Origin 0 0 0																																																																																																																																//#2conchinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h2conchinspect
+	Grappling Hook:
+		$Origin 0 0 0																																																																																																																																//#2grapplinghook
+		Hidden(Y/N):[N]																																																																																																																																//#h2grapplinghook
+	Melee Allclass:
+		$Origin 0 0 0																																																																																																																																//#2meleeallclass
+		Hidden(Y/N):[N]																																																																																																																																//#h2meleeallclass
+	Melee Allclass Inspect:
+		$Origin 0 0 0																																																																																																																																//#2meleeallclassinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h2meleeallclassinspect
+	Melee Inspect:
+		$Origin 0 0 0																																																																																																																																//#2meleeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h2meleeinspect
+	Original:
+		$Origin 0 0 0 																																																																																																																																//#2original
+		Hidden(Y/N):[N]																																																																																																																																//#h2original
+		Remove Reload(Y/N):[N]																																																																																																																														//#r2original
+	Original Inspect:
+		$Origin 0 0 0																																																																																																																																//#2originalinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h2originalinspect
+	Pain Train Inspect:
+		$Origin 0 0 0																																																																																																																																//#2paintraininspect
+		Hidden(Y/N):[N]																																																																																																																																//#h2paintraininspect
+	Passtime:
+		$Origin 0 0 0																																																																																																																																//#2passtime
+		Hidden(Y/N):[N]																																																																																																																																//#h2passtime
+	Primary Inspect:
+		$Origin 0 0 0																																																																																																																																//#2primaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h2primaryinspect
+	Rocket Launchers, all of them except the original:
+		$Origin 0 0 0																																																																																																																																//#2rocketlauncher
+		Hidden(Y/N):[N]																																																																																																																																//#h2rocketlauncher
+		Remove Reload(Y/N):[N]																																																																																																																														//#r2rocketlauncher
+	Secondary Inspect:
+		$Origin 0 0 0																																																																																																																																//#2secondaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h2secondaryinspect
+	Shotguns:
+		$Origin 0 0 0																																																																																																																																//#2shotgun
+		Hidden(Y/N):[N]																																																																																																																																//#h2shotgun
+		Remove Reload(Y/N):[N]																																																																																																																														//#r2shotgun
+	Shovel and all melees with no individual settings:
+		$Origin 0 0 0																																																																																																																																//#2shovel
+		Hidden(Y/N):[N]																																																																																																																																//#h2shovel
+	Spell Cast:
+		$Origin 0 0 0																																																																																																																																//#2spellcast
+		Hidden(Y/N):[N]																																																																																																																																//#h2spellcast
+	Throw:
+		$Origin 0 0 0																																																																																																																																//#2throw
+		Hidden(Y/N):[N]																																																																																																																																//#h2throw
+	Zatoichi Inspect:
+		$Origin 0 0 0																																																																																																																																//#2zatoichiinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h2zatoichiinspect
+
+Pyro:
+	Dragon's Fury Inspect:
+		$Origin 0 0 0																																																																																																																																//#3dragonsfuryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h3dragonsfuryinspect
+	Fire Axe and all melees with no individual settings:
+		$Origin 0 0 0																																																																																																																																//#3fireaxe
+		Hidden(Y/N):[N]																																																																																																																																//#h3fireaxe
+	Flamethrowers:
+		$Origin 0 0 0																																																																																																																																//#3flamethrower
+		Hidden(Y/N):[N]																																																																																																																																//#h3flamethrower
+	Flare Guns:
+		$Origin 0 0 0																																																																																																																																//#3flaregun
+		Hidden(Y/N):[N]																																																																																																																																//#h3flaregun
+	Flare Guns Inspect:
+		$Origin 0 0 0																																																																																																																																//#3flareguninspect
+		Hidden(Y/N):[N]																																																																																																																																//#h3flareguninspect
+	Gas Passer:
+		$Origin 0 0 0																																																																																																																																//#3gaspasser
+		Hidden(Y/N):[N]																																																																																																																																//#h3gaspasser
+	Gas Passer Inspect:
+		$Origin 0 0 0																																																																																																																																//#3gaspasserinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h3gaspasserinspect
+	Grappling Hook:
+		$Origin 0 0 0																																																																																																																																//#3grapplinghook
+		Hidden(Y/N):[N]																																																																																																																																//#h3grapplinghook
+	Hot Hand:
+		$Origin 0 0 0																																																																																																																																//#3hothand
+		Hidden(Y/N):[N]																																																																																																																																//#h3hothand
+	Hot Hand Inspect:
+		$Origin 0 0 0																																																																																																																																//#3hothandinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h3hothandinspect
+	Manmelter:
+		$Origin 0 0 0																																																																																																																																//#3manmelter
+		Hidden(Y/N):[N]																																																																																																																																//#h3manmelter
+	Melee Allclass:
+		$Origin 0 0 0																																																																																																																																//#3meleeallclass
+		Hidden(Y/N):[N]																																																																																																																																//#h3meleeallclass
+	Melee Allclass Inspect:
+		$Origin 0 0 0																																																																																																																																//#3meleeallclassinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h3meleeallclassinspect
+	Melee Inspect:
+		$Origin 0 0 0																																																																																																																																//#3meleeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h3meleeinspect
+	Passtime Ball:
+		$Origin 0 0 0																																																																																																																																//#3passtimeball
+		Hidden(Y/N):[N]																																																																																																																																//#h3passtimeball
+	Phlogistinator Inspect:
+		$Origin 0 0 0																																																																																																																																//#3phlogistinatorinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h3phlogistinatorinspect
+	Primary Inspect:
+		$Origin 0 0 0																																																																																																																																//#3primaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h3primaryinspect
+	Secondary Inspect:
+		$Origin 0 0 0																																																																																																																																//#3secondaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h3secondaryinspect
+	Shotguns:
+		$Origin 0 0 0																																																																																																																																//#3shotgun
+		Hidden(Y/N):[N]																																																																																																																																//#h3shotgun
+		Remove Reload(Y/N):[N]																																																																																																																														//#r3shotgun
+	Spell Cast:
+		$Origin 0 0 0																																																																																																																																//#3spellcast
+		Hidden(Y/N):[N]																																																																																																																																//#h3spellcast
+	Thermal Thruster:
+		$Origin 0 0 0																																																																																																																																//#3thermalthruster
+		Hidden(Y/N):[N]																																																																																																																																//#h3thermalthruster
+	Throw:
+		$Origin 0 0 0																																																																																																																																//#3throw
+		Hidden(Y/N):[N]																																																																																																																																//#h3throw
+	
+Demo:
+	Bottle and all melees with no individual settings:
+		$Origin 0 0 0																																																																																																																																//#4bottle
+		Hidden(Y/N):[N]																																																																																																																																//#h4bottle
+	Claymore Inspect:
+		$Origin 0 0 0																																																																																																																																//#4claymoreinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h4claymoreinspect
+	Grappling Hook:
+		$Origin 0 0 0																																																																																																																																//#4grapplinghook
+		Hidden(Y/N):[N]																																																																																																																																//#h4grapplinghook
+	Grenade Launchers:
+		$Origin 0 0 0																																																																																																																																//#4grenadelauncher
+		Hidden(Y/N):[N]																																																																																																																																//#h4grenadelauncher
+		Remove Reload(Y/N):[N]																																																																																																																														//#r4grenadelauncher
+	Loch-n-Load Reload:
+		$Origin 0 0 0																																																																																																																																//#4lochnloadreload
+		Hidden(Y/N):[N]																																																																																																																																//#h4lochnloadreload
+		Remove Reload(Y/N):[N]																																																																																																																														//#r4lochnloadreload
+	Melee Allclass:
+		$Origin 0 0 0																																																																																																																																//#4meleeallclass
+		Hidden(Y/N):[N]																																																																																																																																//#h4meleeallclass
+	Melee Allclass Inspect:
+		$Origin 0 0 0																																																																																																																																//#4meleeallclassinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h4meleeallclassinspect
+	Melee Inspect:
+		$Origin 0 0 0																																																																																																																																//#4meleeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h4meleeinspect
+	Passtime Ball:
+		$Origin 0 0 0																																																																																																																																//#4passtimeball
+		Hidden(Y/N):[N]																																																																																																																																//#h4passtimeball
+	Primary Inspect:
+		$Origin 0 0 0																																																																																																																																//#4primaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h4primaryinspect
+	Secondary Inspect:
+		$Origin 0 0 0																																																																																																																																//#4secondaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h4secondaryinspect
+	Spell Cast:
+		$Origin 0 0 0																																																																																																																																//#4spellcast
+		Hidden(Y/N):[N]																																																																																																																																//#h4spellcast
+	Sticky Launcher:
+		$Origin 0 0 0																																																																																																																																//#4stickylauncher
+		Hidden(Y/N):[N]																																																																																																																																//#h4stickylauncher
+		Remove Reload(Y/N):[N]																																																																																																																														//#r4stickylauncher
+	Swords:
+		$Origin 0 0 0																																																																																																																																//#4sword
+		Hidden(Y/N):[N]																																																																																																																																//#h4sword
+	Throw:
+		$Origin 0 0 0																																																																																																																																//#4throw
+		Hidden(Y/N):[N]																																																																																																																																//#h4throw
+	
+Heavy:
+	Boxing Gloves:
+		$Origin 0 0 0																																																																																																																																//#5boxinggloves
+		Hidden(Y/N):[N]																																																																																																																																//#h5boxinggloves
+	Boxing Gloves Inspect:
+		$Origin 0 0 0																																																																																																																																//#5boxingglovesinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h5boxingglovesinspect
+	Bread Glove:
+		$Origin 0 0 0																																																																																																																																//#5breadglove
+		Hidden(Y/N):[N]																																																																																																																																//#h5breadglove
+	Bread Glove Inspect:
+		$Origin 0 0 0																																																																																																																																//#5breadgloveinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h5breadgloveinspect
+	Eviction Notice Inspect:
+		$Origin 0 0 0																																																																																																																																//#5evictionnoticeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h5evictionnoticeinspect
+	Fists:
+		$Origin 0 0 0																																																																																																																																//#5fists
+		Hidden(Y/N):[N]																																																																																																																																//#h5fists
+	Grappling Hook:
+		$Origin 0 0 0																																																																																																																																//#5grapplinghook
+		Hidden(Y/N):[N]																																																																																																																																//#h5grapplinghook
+	Melee Allclass:
+		$Origin 0 0 0																																																																																																																																//#5meleeallclass
+		Hidden(Y/N):[N]																																																																																																																																//#h5meleeallclass
+	Melee Allclass Inspect:
+		$Origin 0 0 0																																																																																																																																//#5meleeallclassinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h5meleeallclassinspect
+	Melee Inspect:
+		$Origin 0 0 0																																																																																																																																//#5meleeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h5meleeinspect
+	Minigun:
+		$Origin 0 0 0																																																																																																																																//#5minigun
+		Hidden(Y/N):[N]																																																																																																																																//#h5minigun
+	Passtime Ball:
+		$Origin 0 0 0																																																																																																																																//#5passtimeball
+		Hidden(Y/N):[N]																																																																																																																																//#h5passtimeball
+	Primary Inspect:
+		$Origin 0 0 0																																																																																																																																//#5primaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h5primaryinspect
+	Sandwich:
+		$Origin 0 0 0																																																																																																																																//#5sandwich
+		Hidden(Y/N):[N]																																																																																																																																//#h5sandwich
+	Sandwich Inspect:
+		$Origin 0 0 0																																																																																																																																//#5sandwichinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h5sandwichinspect
+	Secondary Inspect:
+		$Origin 0 0 0																																																																																																																																//#5secondaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h5secondaryinspect
+	Shotgun:
+		$Origin 0 0 0																																																																																																																																//#5shotgun
+		Hidden(Y/N):[N]																																																																																																																																//#h5shotgun
+		Remove Reload(Y/N):[N]																																																																																																																														//#r5shotgun
+	Spell Cast:
+		$Origin 0 0 0																																																																																																																																//#5spellcast
+		Hidden(Y/N):[N]																																																																																																																																//#h5spellcast
+	Throw:
+		$Origin 0 0 0																																																																																																																																//#5throw
+		Hidden(Y/N):[N]																																																																																																																																//#h5throw
+	
+Engineer:
+	Builder(PDA):
+		$Origin 0 0 0																																																																																																																																//#6builder
+		Hidden(Y/N):[N]																																																																																																																																//#h6builder
+	Destruction PDA:
+		$Origin 0 0 0																																																																																																																																//#6destructionpda
+		Hidden(Y/N):[N]																																																																																																																																//#h6destructionpda
+	Grappling Hook:
+		$Origin 0 0 0																																																																																																																																//#6grapplinghook
+		Hidden(Y/N):[N]																																																																																																																																//#h6grapplinghook
+	Gunslinger:
+		$Origin 0 0 0																																																																																																																																//#6gunslinger
+		Hidden(Y/N):[N]																																																																																																																																//#h6gunslinger
+	Gunslinger Inspect:
+		$Origin 0 0 0																																																																																																																																//#6gunslingerinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h6gunslingerinspect
+	Melee Allclass:
+		$Origin 0 0 0																																																																																																																																//#6meleeallclass
+		Hidden(Y/N):[N]																																																																																																																																//#h6meleeallclass
+	Melee Allclass Inspect:
+		$Origin 0 0 0																																																																																																																																//#6meleeallclassinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h6meleeallclassinspect
+	Melee Inspect:
+		$Origin 0 0 0																																																																																																																																//#6meleeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h6meleeinspect
+	Passtime Ball:
+		$Origin 0 0 0																																																																																																																																//#6passtimeball
+		Hidden(Y/N):[N]																																																																																																																																//#h6passtimeball
+	Pistol:
+		$Origin 0 0 0																																																																																																																																//#6pistol
+		Hidden(Y/N):[N]																																																																																																																																//#h6pistol
+		Remove Reload(Y/N):[N]																																																																																																																														//#r6pistol
+	Pomson:
+		$Origin 0 0 0																																																																																																																																//#6pomson
+		Hidden(Y/N):[N]																																																																																																																																//#h6pomson
+		Remove Reload(Y/N):[N]																																																																																																																														//#r6pomson
+	Pomson Inspect:
+		$Origin 0 0 0																																																																																																																																//#6pomsoninspect
+		Hidden(Y/N):[N]																																																																																																																																//#h6pomsoninspect
+	Primary Inspect:
+		$Origin 0 0 0																																																																																																																																//#6primaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h6primaryinspect
+	Secondary Inspect:
+		$Origin 0 0 0																																																																																																																																//#6secondaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h6secondaryinspect
+	Short Circuit Inspect:
+		$Origin 0 0 0																																																																																																																																//#6shortcircuitinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h6shortcircuitinspect
+	Shotguns:
+		$Origin 0 0 0																																																																																																																																//#6shotgun
+		Hidden(Y/N):[N]																																																																																																																																//#h6shotgun
+		Remove Reload(Y/N):[N]																																																																																																																														//#r6shotgun
+	Spell Cast:
+		$Origin 0 0 0																																																																																																																																//#6spellcast
+		Hidden(Y/N):[N]																																																																																																																																//#h6spellcast
+	Throw:
+		$Origin 0 0 0																																																																																																																																//#6throw
+		Hidden(Y/N):[N]																																																																																																																																//#h6throw
+	Tool Box:
+		$Origin 0 0 0																																																																																																																																//#6toolbox
+		Hidden(Y/N):[N]																																																																																																																																//#h6toolbox
+	Widowmaker Inspect:
+		$Origin 0 0 0																																																																																																																																//#6widowmakerinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h6widowmakerinspect
+	Wrangler:
+		$Origin 0 0 0																																																																																																																																//#6wrangler
+		Hidden(Y/N):[N]																																																																																																																																//#h6wrangler
+	Wrangler Inspect:
+		$Origin 0 0 0																																																																																																																																//#6wranglerinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h6wranglerinspect
+	Wrench and all melees with no individual settings:
+		$Origin 0 0 0																																																																																																																																//#6wrench
+		Hidden(Y/N):[N]																																																																																																																																//#h6wrench
+	Southern Hospitality:
+		$Origin 0 0 0																																																																																																																																//#6wrenchalt
+		Hidden(Y/N):[N]																																																																																																																																//#h6wrenchalt
+	
+Medic:
+	Bonesaw and all melees with no individual settings:
+		$Origin 0 0 0																																																																																																																																//#7bonesaw
+		Hidden(Y/N):[N]																																																																																																																																//#h7bonesaw
+	Grappling Hook:
+		$Origin 0 0 0																																																																																																																																//#7grapplinghook
+		Hidden(Y/N):[N]																																																																																																																																//#h7grapplinghook
+	Medigun:
+		$Origin 0 0 0																																																																																																																																//#7medigun
+		Hidden(Y/N):[N]																																																																																																																																//#h7medigun
+	Melee Allclass:
+		$Origin 0 0 0																																																																																																																																//#7meleeallclass
+		Hidden(Y/N):[N]																																																																																																																																//#h7meleeallclass
+	Melee Allclass Inspect:
+		$Origin 0 0 0																																																																																																																																//#7meleeallclassinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h7meleeallclassinspect
+	Melee Inspect:
+		$Origin 0 0 0																																																																																																																																//#7meleeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h7meleeinspect
+	Passtime Ball:
+		$Origin 0 0 0																																																																																																																																//#7passtimeball
+		Hidden(Y/N):[N]																																																																																																																																//#h7passtimeball
+	Primary Inspect:
+		$Origin 0 0 0																																																																																																																																//#7primaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h7primaryinspect
+	Secondary Inspect:
+		$Origin 0 0 0																																																																																																																																//#7secondaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h7secondaryinspect
+	Spell Cast:
+		$Origin 0 0 0																																																																																																																																//#7spellcast
+		Hidden(Y/N):[N]																																																																																																																																//#h7spellcast
+	Syringe Guns + Crossbow:
+		$Origin 0 0 0																																																																																																																																//#7syringegun
+		Hidden(Y/N):[N]																																																																																																																																//#h7syringegun
+		Remove Reload(Y/N):[N]																																																																																																																														//#r7syringegun
+	Throw:
+		$Origin 0 0 0																																																																																																																																//#7throw
+		Hidden(Y/N):[N]																																																																																																																																//#h7throw
+	
+Sniper:
+	Bread Jar:
+		$Origin 0 0 0																																																																																																																																//#8breadjar
+		Hidden(Y/N):[N]																																																																																																																																//#h8breadjar
+	Bread Jar Inspect:
+		$Origin 0 0 0																																																																																																																																//#8breadjarinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h8breadjarinspect
+	Grappling Hook:
+		$Origin 0 0 0																																																																																																																																//#8grapplinghook
+		Hidden(Y/N):[N]																																																																																																																																//#h8grapplinghook
+	Huntsman:
+		$Origin 0 0 0																																																																																																																																//#8huntsman
+		Hidden(Y/N):[N]																																																																																																																																//#h8huntsman
+	Huntsman Inspect:
+		$Origin 0 0 0																																																																																																																																//#8huntsmaninspect
+		Hidden(Y/N):[N]																																																																																																																																//#h8huntsmaninspect
+	Jarate:
+		$Origin 0 0 0																																																																																																																																//#8jarate
+		Hidden(Y/N):[N]																																																																																																																																//#h8jarate
+	Jarate Inspect:
+		$Origin 0 0 0																																																																																																																																//#8jarateinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h8jarateinspect
+	Kukri and all melees with no individual settings:
+		$Origin 0 0 0																																																																																																																																//#8kukri
+		Hidden(Y/N):[N]																																																																																																																																//#h8kukri
+	Melee Allclass:
+		$Origin 0 0 0																																																																																																																																//#8meleeallclass
+		Hidden(Y/N):[N]																																																																																																																																//#h8meleeallclass
+	Melee Allclass Inspect:
+		$Origin 0 0 0																																																																																																																																//#8meleeallclassinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h8meleeallclassinspect
+	Melee Inspect:
+		$Origin 0 0 0																																																																																																																																//#8meleeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h8meleeinspect
+	Passtime Ball:
+		$Origin 0 0 0																																																																																																																																//#8passtimeball
+		Hidden(Y/N):[N]																																																																																																																																//#h8passtimeball
+	Primary Inspect:
+		$Origin 0 0 0																																																																																																																																//#8primaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h8primaryinspect
+	Secondary Inspect:
+		$Origin 0 0 0																																																																																																																																//#8secondaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h8secondaryinspect
+	SMGs:
+		$Origin 0 0 0																																																																																																																																//#8smg
+		Hidden(Y/N):[N]																																																																																																																																//#h8smg
+		Remove Reload(Y/N):[N]																																																																																																																														//#r8smg
+	Sniper Rifles:
+		$Origin 0 0 0																																																																																																																																//#8sniperrifle
+		Hidden(Y/N):[N]																																																																																																																																//#h8sniperrifle
+	Spell Cast:
+		$Origin 0 0 0																																																																																																																																//#8spellcast
+		Hidden(Y/N):[N]																																																																																																																																//#h8spellcast
+	Sydney Sleeper Inspect:
+		$Origin 0 0 0																																																																																																																																//#8sydneysleeperinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h8sydneysleeperinspect
+	Throw:
+		$Origin 0 0 0																																																																																																																																//#8throw
+		Hidden(Y/N):[N]																																																																																																																																//#h8throw
+
+Spy:
+	Ambassador Reload:
+		$Origin 0 0 0																																																																																																																																//#9ambassadorreload
+		Hidden(Y/N):[N]																																																																																																																																//#h9ambassadorreload
+		Remove Reload(Y/N):[N]																																																																																																																														//#r9ambassadorreload
+	Bread Sapper:
+		$Origin 0 0 0																																																																																																																																//#9breadsapper
+		Hidden(Y/N):[N]																																																																																																																																//#h9breadsapper
+	Bread Sapper Inspect:
+		$Origin 0 0 0																																																																																																																																//#9breadsapperinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h9breadsapperinspect
+	Butterfly Knife:
+		$Origin 0 0 0																																																																																																																																//#9butterflyknife
+		Hidden(Y/N):[N]																																																																																																																																//#h9butterflyknife
+		Disable backstab detection animation(Y/N):[N]																																																																																																																								//#knifebsdet
+		Disable special backstab animation(Y/N):[N]																																																																																																																									//#knifebsanim
+	Kunai, Eternal Reward, Big Earner:
+		$Origin 0 0 0																																																																																																																																//#9eternalknife
+		Hidden(Y/N):[N]																																																																																																																																//#h9eternalknife
+		Disable backstab detection animation(Y/N):[N]																																																																																																																								//#eternalbsdet
+		Disable special backstab animation(Y/N):[N]																																																																																																																									//#eternalbsanim
+	Kunai, Eternal Reward, Big Earner Inspect:
+		$Origin 0 15 15																																																																																																																																//#9eternalknifeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h9eternalknifeinspect
+	Grappling Hook:
+		$Origin 0 0 0																																																																																																																																//#9grapplinghook
+		Hidden(Y/N):[N]																																																																																																																																//#h9grapplinghook
+	Melee Allclass:
+		$Origin 0 0 0																																																																																																																																//#9meleeallclass
+		Hidden(Y/N):[N]																																																																																																																																//#h9meleeallclass
+	Melee Allclass Inspect:
+		$Origin 0 0 0																																																																																																																																//#9meleeallclassinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h9meleeallclassinspect
+	Melee Inspect (all knives):
+		$Origin 0 0 0																																																																																																																																//#9meleeinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h9meleeinspect
+	Passtime Ball:
+		$Origin 0 0 0																																																																																																																																//#9passtimeball
+		Hidden(Y/N):[N]																																																																																																																																//#h9passtimeball
+	Red Tape Recorder:
+		$Origin 0 0 0																																																																																																																																//#9redtaperecorder
+		Hidden(Y/N):[N]																																																																																																																																//#h9redtaperecorder
+	Revolvers:
+		$Origin 0 0 0																																																																																																																																//#9revolver
+		Hidden(Y/N):[N]																																																																																																																																//#h9revolver
+		Remove Reload(Y/N):[N]																																																																																																																														//#r9revolver
+	Sapper:
+		$Origin 0 0 0																																																																																																																																//#9sapper
+		Hidden(Y/N):[N]																																																																																																																																//#h9sapper
+	Sapper Inspect:
+		$Origin 0 0 0																																																																																																																																//#9sapperinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h9sapperinspect
+	Secondary Inspect(this is for revolvers):
+		$Origin 0 0 0																																																																																																																																//#9secondaryinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h9secondaryinspect
+	Sharp Dresser:
+		$Origin 0 0 0																																																																																																																																//#9sharpdresser
+		Hidden(Y/N):[N]																																																																																																																																//#h9sharpdresser
+		Disable backstab detection animation(Y/N):[N]																																																																																																																								//#sharpbsdet
+		Disable special backstab animation(Y/N):[N]																																																																																																																									//#sharpbsanim
+	Sharp Dresser Inspect:
+		$Origin 0 0 0																																																																																																																																//#9sharpdresserinspect
+		Hidden(Y/N):[N]																																																																																																																																//#h9sharpdresserinspect
+	Spell Cast:
+		$Origin 0 0 0																																																																																																																																//#9spellcast
+		Hidden(Y/N):[N]																																																																																																																																//#h9spellcast
+	Throw:
+		$Origin 0 0 0																																																																																																																																//#9throw
+		Hidden(Y/N):[N]																																																																																																																																//#h9throw
+	
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// These lines determine where the hidden viewmodels actually get put
+
+		$Origin 0 -150 25		//#scout_hide_offset
+		$Origin 0 -100 25		//#soldier_hide_offset
+		$Origin 0 -85 25		//#pyro_hide_offset
+		$Origin 0 -100 25		//#demo_hide_offset
+		$Origin 0 -100 25		//#heavy_hide_offset
+		$Origin 0 -100 25		//#engineer_hide_offset
+		$Origin 0 -85 25		//#medic_hide_offset
+		$Origin 0 -100 25		//#sniper_hide_offset
+		$Origin 0 -100 25		//#spy_hide_offset
+
+
+
+
+
+
+
+
+
+
+

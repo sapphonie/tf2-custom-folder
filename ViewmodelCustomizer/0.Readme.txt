@@ -1,0 +1,9 @@
+This was made by a horse.
+
+	How to use:
+	1. Make sure the ViewmodelCustomizer folder is inside your custom folder. Do not rename it.
+	2. Edit your settings for each animation in 1.Settings.txt. 
+	3. Once you set everything, run GENERATE.bat. It will generate 0.CustomizedViewmodels.vpk in your custom folder.
+	4. Open up the game and test. If you want to change anything, adjust the settings in 1.Settings.txt again and run
+	GENERATE.bat.
+	5. If you want to use preloading and have it work in casual, add "exec preloading.cfg" to your autoexec.
