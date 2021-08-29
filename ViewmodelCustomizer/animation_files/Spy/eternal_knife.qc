@@ -80,7 +80,10 @@ $definebone "Wrist_Control" "bip_lowerArm_L" 0 -10.81348 -0.000002 -0.000002 0.0
 $sequence "eternal_draw" {
 	"eternal_knife_anims\eternal_draw.smd"
 	activity "ACT_ITEM2_VM_DRAW" 1
-	{ event 5004 1 "Icicle.Deploy" }
+	{ event 5004 1 "Weapon_Knife.Draw" }
+	{ event 5004 10 "Weapon_Knife.Open1" }
+	{ event 5004 16 "Weapon_Knife.Open5" }
+	{ event 5004 22 "Weapon_Knife.Open8" }
 	fadein 0.2
 	fadeout 0.2
 	node "raised"

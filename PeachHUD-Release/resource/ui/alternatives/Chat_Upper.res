@@ -9,7 +9,7 @@
 		"xpos"					"0"
 		"ypos"					"22"
         "zpos"					"-50"
-		"wide"					"250"
+		"wide"					"200"
 		"tall"					"90"
 		"fgcolor"				"White"
 		"PaintBackgroundType" 	"0"
@@ -28,7 +28,7 @@
 		"xpos"					"2"
 		"ypos"					"395"
         "zpos"					"-50"
-		"wide"					"245"
+		"wide"					"196"
 		"tall"					"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -51,7 +51,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"Default"				"0"
+		"Default"				"0"		
 	}
 
 	"HudChatHistory"
@@ -61,7 +61,7 @@
 		"xpos"					"2"
 		"ypos"					"8"
         "zpos"					"-50"
-		"wide"					"245"
+		"wide"					"200"
 		"tall"					"70"
 		"wrap"					"1"
 		"autoResize"			"1"

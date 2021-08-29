@@ -2,7 +2,6 @@ Scheme
 {
 	Fonts
 	{
-
 		"Size:10 | Outline:OFF"
 		{
 			"1"

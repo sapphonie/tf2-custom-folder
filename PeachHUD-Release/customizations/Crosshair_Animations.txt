@@ -13,15 +13,15 @@
 
 event DamagedPlayer
 {
-	Animate "CustomCrosshair"		FgColor		"255 000 000 255"					Linear	0.0			0.01
-	Animate "CustomCrosshair"		FgColor		"000 255 000 255"					Linear	0.0166		0.01
-	Animate "CustomCrosshair"		FgColor		"000 000 255 255"					Linear	0.0333		0.01
-	Animate "CustomCrosshair"		FgColor		"255 255 000 255"					Linear	0.05		0.01
-	Animate "CustomCrosshair"		FgColor		"000 255 255 255"					Linear	0.0666		0.01
-	Animate "CustomCrosshair"		FgColor		"255 000 255 255"					Linear	0.0833		0.01
-	Animate "CustomCrosshair"		FgColor		"255 255 255 000"					Linear	0.1			0.01
-
 	//Animate "CustomCrosshair"		FgColor     "255 0 0 255"			Linear 	0.0 	0.00001 	// Crosshair color on hit
 	//Animate "CustomCrosshair"		FgColor     "255 255 255 255"		Linear 	0.10 	0.10001 	// Should match your crosshair color in crosshair.res
-}
 
+    // rainbow animation
+    Animate "CustomCrosshair"       FgColor     "255 000 000 255"                   Linear  0.0         0.01
+    Animate "CustomCrosshair"       FgColor     "000 255 000 255"                   Linear  0.0166      0.01
+    Animate "CustomCrosshair"       FgColor     "000 000 255 255"                   Linear  0.0333      0.01
+    Animate "CustomCrosshair"       FgColor     "255 255 000 255"                   Linear  0.05        0.01
+    Animate "CustomCrosshair"       FgColor     "000 255 255 255"                   Linear  0.0666      0.01
+    Animate "CustomCrosshair"       FgColor     "255 000 255 255"                   Linear  0.0833      0.01
+    Animate "CustomCrosshair"       FgColor     "255 255 255 000"                   Linear  0.1         0.01
+}
