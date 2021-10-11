@@ -7,7 +7,7 @@ start CursorLock.exe /A:"C:\Program Files (x86)\Steam\steamapps\common\Team Fort
 :: kill any running vibrance
 taskkill -im vibrance* /f
 :: start vibrance
-start D:/vibrance &
+start C:\Users\stephanie\Desktop\vibranceGUI.exe &
 :: goto custom folder
 cd /D "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom"
 :: delete sound caches on start
