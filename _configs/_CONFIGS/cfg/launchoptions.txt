@@ -1,1 +1,0 @@
--game tf -steam -secure -w 1920 -h 1080 -fullscreen -high -novid -nojoy -nosteamcontroller -softparticlesdefaultoff -reuse -particles 1 -primarysound -snoforceformat -console -nostartupsound &
