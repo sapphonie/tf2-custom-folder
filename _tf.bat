@@ -35,4 +35,4 @@ taskkill -im hl2.exe* /f
 :: normal
 ::
 :: start the game
-start hl2.exe -game tf -secure -steam -novid -nojoy -nosteamcontroller -high -particles 1 -precachefontchars -console -nostartupsound -noquicktime +clientport 27069 +hide_server 1 -w 1280 -h 720 -sw &
+start hl2.exe -game tf -secure -steam -novid -nojoy -nosteamcontroller -high -particles 1 -precachefontchars -console -nostartupsound -noquicktime +clientport 27069 +hide_server 1 -w 1920 -h 1080 -fullscreen &
