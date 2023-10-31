@@ -3,17 +3,17 @@ cd /D "C:\Program Files (x86)\Cursor Lock\"
 :: kill any running cursorlock
 taskkill -im CursorLock* /f
 :: start new cursorlock
-start CursorLock.exe /A:"C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\hl2.exe" /M:2 &
+start CursorLock.exe /A:"D:\SteamLibrary\steamapps\common\Team Fortress 2\hl2.exe" /M:2 &
 :: kill any running vibrance
 taskkill -im vibrance* /f
 :: start vibrance
-start C:\Users\stephanie\Desktop\vibranceGUI.exe &
+start D:\vibranceGUI\vibranceGUI.exe &
 :: goto custom folder
-cd /D "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom"
+cd /D "D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom"
 :: delete sound caches on start
 del /S *.cache
 :: go to main tf2 directory
-cd /D "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\"
+cd /D "D:\SteamLibrary\steamapps\common\Team Fortress 2"
 :: kill any running tf2
 taskkill -im hl2.exe* /f
 ::================================

@@ -1,8 +1,0 @@
-"DecalModulate"
-{
-	"$translucent" 1
-	"$basetexture" "Decals/Blood1"
-	"$decal" 1
-	"$Size"		"512 512"
-	"$decalscale" 0.10
-}
