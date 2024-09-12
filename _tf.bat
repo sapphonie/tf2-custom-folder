@@ -35,4 +35,4 @@ taskkill -im tf*.exe /f
 :: normal
 ::  -w 1920 -h 1080 -fullscreen -freq 144
 :: start the game
-start tf_win64.exe -game tf -secure -steam -w 1920 -h 1080 -fullscreen -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -high -console -nostartupsound -noquicktime +clientport 27069 +hide_server 1 +sv_lan 1 +exec preloader.cfg &
+start tf_win64.exe -game tf -secure -steam -w 1920 -h 1080 -fullscreen -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -high -console -nostartupsound -noquicktime +clientport 27069 +hide_server 1 +sv_lan 1 +exec preloader.cfg +sv_pure -1 &
