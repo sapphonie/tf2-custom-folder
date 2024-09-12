@@ -3,7 +3,7 @@ cd /D "C:\Program Files (x86)\Cursor Lock\"
 :: kill any running cursorlock
 taskkill -im CursorLock* /f
 :: start new cursorlock
-start CursorLock.exe /A:"D:\SteamLibrary\steamapps\common\Team Fortress 2\hl2.exe" /M:2 &
+start CursorLock.exe /A:"D:\SteamLibrary\steamapps\common\Team Fortress 2\tf_win64.exe" /M:2 &
 :: kill any running vibrance
 taskkill -im vibrance* /f
 :: start vibrance
@@ -15,7 +15,7 @@ del /S *.cache
 :: go to main tf2 directory
 cd /D "D:\SteamLibrary\steamapps\common\Team Fortress 2"
 :: kill any running tf2
-taskkill -im hl2.exe* /f
+taskkill -im tf*.exe /f
 ::================================
 :: clean:
 ::
@@ -33,6 +33,6 @@ taskkill -im hl2.exe* /f
 ::
 ::================================
 :: normal
-::
+::  -w 1920 -h 1080 -fullscreen -freq 144
 :: start the game
-start hl2.exe -game tf -secure -steam -novid -nojoy -nosteamcontroller -high -particles 1 -precachefontchars -console -nostartupsound -noquicktime +clientport 27069 +hide_server 1 -w 1920 -h 1080 -fullscreen &
+start tf_win64.exe -game tf -secure -steam -w 1920 -h 1080 -fullscreen -novid -nojoy -nosteamcontroller -nohltv -particles 1 -precachefontchars -high -console -nostartupsound -noquicktime +clientport 27069 +hide_server 1 +sv_lan 1 +exec preloader.cfg &

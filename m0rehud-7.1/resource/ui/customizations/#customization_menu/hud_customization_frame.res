@@ -55,13 +55,13 @@
 			"labelText"									"X"
 			"font"										"Symbols18"
 			"textAlignment"								"center"
-			"Command"									"engine cl_mainmenu_safemode 0; mat_queue_mode -1"
+			"Command"									"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape"
 			"actionsignallevel"							"2"
 			"sound_depressed"							"UI/buttonclick.wav"
 		}
 		"GitHubWiki"
 		{
-			"ControlName"								"URLLabel"
+			"ControlName"								"CExButton"
 			"fieldname"									"GitHubWiki"
 			"xpos"										"2"
 			"ypos"										"0"
@@ -74,13 +74,39 @@
 			"labelText"									"HUD WIKI"
 			"font"										"FontStorePrice"
 			"textAlignment"								"center"
-			"urlText"									"https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"
-			"FgColor_override"							"White"
+			"command"									"url https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"
 			"paintbackground"							"1"
-			"paintbackgroundtype"						"2"
-			"bgcolor_override"							"TanDark"
 
 			"pin_to_sibling"							"CloseButton"
+			"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		}
+		"TroubleShooting"
+		{
+			"ControlName"								"CExButton"
+			"fieldname"									"TroubleShooting"
+			"xpos"										"2"
+			"ypos"										"0"
+			"zpos"										"20"
+			"wide"										"100"
+			"tall"										"20"
+			"visible"									"1"
+			"enabled"									"1"
+			"proportionaltoparent"						"1"
+			"labelText"									"TROUBLESHOOTING"
+			"font"										"FontStorePrice"
+			"textAlignment"								"center"
+			"command"									"url https://github.com/Hypnootize/m0rehud/wiki/TROUBLESHOOTING#customizations-and-resolution-menu"
+
+			"defaultBgColor_override"					"Blue"
+			"armedBgColor_override"						"60 80 90 255"
+			"depressedBgColor_override"					"Blue"
+
+			"defaultFgColor_override"					"White"
+			"armedFgColor_override"						"White"
+			"depressedFgColor_override"					"White"
+
+			"pin_to_sibling"							"GitHubWiki"
 			"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		}
@@ -111,7 +137,7 @@
 			"armedFgColor_override"						"White"
 			"depressedFgColor_override"					"White"
 
-			"pin_to_sibling"							"GitHubWiki"
+			"pin_to_sibling"							"TroubleShooting"
 			"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		}
@@ -130,7 +156,7 @@
 			"labelText"									"Restart TF2"
 			"font"										"FontStorePrice"
 			"textAlignment"								"center"
-			"Command"									"engine gamemenucommand RestartWithNewLanguage; mat_queue_mode -1"
+			"Command"									"engine gameui_allowescape; mat_queue_mode -1; gamemenucommand RestartWithNewLanguage"
 			"actionsignallevel"							"2"
 			"sound_depressed"							"UI/buttonclick.wav"
 
@@ -197,7 +223,7 @@
 			"labelText"									"Reload to Apply Changes"
 			"font"										"HudFontSmallBold"
 			"textAlignment"								"center"
-			"Command"									"engine cl_mainmenu_safemode 0; mat_queue_mode -1; hud_reloadscheme"
+			"Command"									"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme"
 			"actionsignallevel"							"2"
 			"sound_depressed"							"UI/buttonclick.wav"
 
